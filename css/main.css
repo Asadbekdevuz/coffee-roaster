@@ -630,6 +630,7 @@ body {
   display: block;
   width: 256px;
   height: 193px;
+  margin-left: 40px;
 }
 
 .second__item-title {
