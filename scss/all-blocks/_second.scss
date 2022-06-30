@@ -1,0 +1,150 @@
+.second{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.second__inner{
+  padding-top: 150px;
+  padding-bottom: 200px;
+  background-image: url("../../img/second-bg.png"); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  position: relative;
+  
+}
+.second__list{
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  text-align: center;
+ 
+}
+
+.second__item{
+  padding-top: 70px;
+}
+.second__img{
+  display: block;
+  width: 256px;
+  height: 193px;
+}
+.second__item-title{
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #333d4b;
+
+}
+.second__item-text{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #333d4b;
+}
+@media only screen and(max-width:1056px){
+  .second__inner{
+    padding-top: 100px;
+    padding-bottom: 150px;
+    // margin-bottom: ;
+}
+.second__list{
+  right: 20px;
+}
+.second__item{
+  padding-top: 60px;
+  
+}
+}
+
+
+@media only screen and(max-width:1036px){
+  .second__inner{
+    padding-top: 100px;
+
+}
+.second__list{
+  right: 10px;
+}
+.second__item{
+  padding-top: 60px;
+  
+}
+}
+@media only screen and(max-width:1000px){
+.second__inner{
+  padding-bottom: 300px;
+}
+.second__list{
+  display: block;
+  padding-right: 150px;
+
+}
+
+.second__item{
+  display: flex;
+  padding-top: 180px;
+}
+.second__item-box{
+  max-width: 300px;
+}
+
+}
+@media only screen and (max-width:550px){
+  .second__list{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .second__item{
+    display:block;
+    text-align: center;
+    padding-top: 150px;
+  }
+  .second__img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  
+  }
+  
+  @media only screen and (max-width:430px){
+     .second__inner{
+      padding-left: 500px;
+     }
+    .second__list{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .second__item{
+      display:block;
+      text-align: center;
+      padding-top: 150px;
+    }
+    .second__img{
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+    .second__item-title{
+      font-style: normal;
+      font-weight: 900;
+      font-size: 24px;
+      line-height: 28px;
+    
+    
+    }
+    .second__item-text{
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      text-align: center;
+      color: #333d4b;
+    }
+    
+    }
+    

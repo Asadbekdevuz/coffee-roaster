@@ -1,0 +1,88 @@
+
+
+
+
+
+.hero__inner{
+  padding-top: 116px;
+  padding-bottom: 116px;
+  padding-left: 86px;
+  background-image: url("../../img/greet_coffee-bg-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  
+}
+
+
+.hero__content{
+  max-width: 430px;
+}
+
+.hero__heading{
+  top: calc(50% - 145px/2 - 55px);
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FEFCF7;
+  padding-bottom: 32px;
+}
+.hero__text{
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  padding-bottom: 56px;
+}
+
+.create-link{
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FEFCF7;
+  background:#0e8784;
+  border-radius: 6px;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+.create-link:hover{
+  background-color:  #66d2cf;
+}
+.create-link:active{
+  background-color:#e2dedb;
+}
+
+
+@media only screen and(max-width:690px){
+  .hero__inner{
+    padding-top: 150px;
+    padding-bottom: 163px;
+    padding-left: 56px;
+    background-image: url("../../img/hero-table-bg-image.png");
+
+}
+.hero__content{
+  max-width: 330px;
+}
+  .hero__heading{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    padding-bottom: 24px;
+  }
+  .hero__text{
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 40px;
+  }
+  
+}
