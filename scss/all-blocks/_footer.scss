@@ -8,6 +8,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 .logo__link{
   align-items: center;
@@ -25,11 +26,9 @@
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
+  margin-right: 350px;
 }    
 
-.footer__item{
-  margin-left: 103px;
-}
 
 .footer__item + .footer__item {
   margin-left: 30px;
@@ -65,6 +64,16 @@
   height: 24px;
 }
 
+@media only screen and (max-width:1076px){
+  .footer__list{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-right: 100px;
+  }    
+     
+}
+
 @media only screen and (max-width:840px){
 
   .footer__inner{
@@ -75,6 +84,9 @@
   } 
   .footer__list{
     display: block;
+    padding-top: 30px;
+    margin-right: 0px;
+
   }
 .footer__item-logo{
     margin-bottom: 30px;
@@ -100,6 +112,7 @@
   } 
   .footer__list{
     display: block;
+    padding-top: 30px;
   }
 .footer__item-logo{
     margin-bottom: 30px;
@@ -124,6 +137,7 @@
   } 
   .footer__list{
     display: block;
+    padding-top: 30px;
   }
 .footer__item-logo{
     margin-bottom: 30px;
@@ -140,37 +154,29 @@
   
 }
 
-@media only screen and (max-width:470px){
+@media only screen and (max-width:450px){
 
   .footer__inner{
     display: block;
-    justify-content: center;
-    align-items: center;
     text-align: center;
-    padding-right: 50px;
-    padding-left: 100px;}
-
+  }
+   .logo__link{
+    display: block;
+    margin-left: -70px;
+   }
     .footer__list{
       display: block;
-      padding-right: 100px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-   .footer__item{
-    margin-left: auto;
-    margin-right: auto;
-   }
-    .logo_img{
-      width: 230px;
-      height: 26px;
+      margin-left: -140px;      
     }
 
   .footer__right{
     display: flex;
-    align-items: center;
-    margin-left: 30px;
+    margin-left: -10px;
   }
-  
+  .footer__right-item + .footer__right-item{
+    margin-left: 34px;
+  }
+ 
 }
 
 @media only screen and (max-width:380px){
@@ -179,9 +185,6 @@
     display: block;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    padding-right: 50px;
-    padding-left:50px;
 
   .logo_img{
     width: 180px;
@@ -195,8 +198,9 @@
   .footer__right{
     display: flex;
     align-items: center;
-    margin-left: 30px;
-  }
+    margin-left: 0px;
+    
+    }
   
 }
 }
